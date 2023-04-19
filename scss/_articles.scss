@@ -1,0 +1,51 @@
+.articles {
+  padding: 0;
+
+  .articles-col {
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 0;
+    margin: 15px;
+
+    @media (min-width: 615px) {
+      margin: 30px 35px;
+    }
+
+    img {
+      width: 100%;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+
+    }
+
+    .article__text {
+      padding: 30px 15px;
+      text-align: left;
+      line-height: 1.75;
+
+      @media (min-width: 615px) {
+        padding: 59px 29px 44px 29px;
+      }
+
+      h2 {
+        font-weight: 800;
+        font-size: 19.8px;
+        margin: 0 0 4.95px;
+      }
+
+      .art-txt1 {
+        color: #696969;
+        font-size: 14.667px;
+        font-weight: 300;
+        margin-bottom: 29.33px;
+      }
+
+      .art-txt2 {
+        color: #696969;
+        font-size: 14.667px;
+        font-weight: 300;
+      }
+    }
+  }
+}
